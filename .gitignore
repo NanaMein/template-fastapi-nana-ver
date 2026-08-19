@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OpenCode (per-project agents, config)
+.opencode/
+opencode.json
+opencode.jsonc
+AGENTS.md

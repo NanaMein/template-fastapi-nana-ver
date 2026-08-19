@@ -1,0 +1,21 @@
+[project]
+name = "template-fastapi-nana-ver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "pwdlib[bcrypt]>=0.3.1",
+    "pymongo>=4.17.0",
+    "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
+    "redis>=8.1.0",
+    "tzdata>=2026.3",
+    "uvicorn>=0.52.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.3",
+]

@@ -1,0 +1,1 @@
+# template-fastapi-nana-ver
